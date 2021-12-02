@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: netflix-eureka-naming-server
+  cloud:
+    bootstrap:
+      enabled: true
+    config:
+      allowOverride: ~
+      overrideNone: ~
+   #   uri: http://localhost:8888
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
